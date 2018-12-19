@@ -1,0 +1,77 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1481764567660'); /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1481764567660#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff?t=1481764567660') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf?t=1481764567660') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg?t=1481764567660#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*报警*/
+.icon-alarm:before { content: "\e6d7"; } /*报警（默认）*/
+
+.icon-YW:before { content: "\e6c0"; } /*液位*/
+
+.icon-SZ:before { content: "\e6c3"; } /*水质*/
+
+.icon-COMM:before { content: "\e6dc"; } /*通讯故障*/
+
+.icon-LL:before { content: "\e6c5"; } /*流量*/
+
+.icon-DEVICE:before { content: "\e6d2"; } /*设备故障*/
+
+.icon-DOOR:before { content: "\e6de"; }  /*门子开关*/
+
+
+/*通用*/
+.icon-list:before { content: "\e6c8"; } /*列表*/
+
+.icon-setting:before { content: "\e6cb"; } /*设置*/
+
+.icon-analysis:before { content: "\e6cc"; } /*分析*/
+
+.icon-working:before { content: "\e6cd"; } /*作业、运行*/
+
+.icon-back:before { content: "\e6d1"; } /*返回*/
+
+.icon-realtime:before { content: "\e6d4"; } /*实时监控*/
+
+.icon-gis:before { content: "\e6df"; }  /*地图*/
+
+.icon-home:before { content: "\e61a"; }	/*首页*/
+
+.icon-serach:before { content: "\e61b"; }	/*搜索*/
+
+.icon-solution:before { content: "\e635"; }	/*解决方案*/
+
+.icon-hisorder:before { content: "\e62a"; }	/*累计发货*/
+
+.icon-area2:before { content: "\e605"; }	/*面积2*/
+
+.icon-camera:before { content: "\e6cf"; }	/*相机*/
+
+.icon-project:before { content: "\e646"; }	/*管网工程*/
+
+.icon-repair:before { content: "\e773"; }	/*保养、维修*/
+
+.icon-area:before { content: "\e6ad"; }		/*面积*/
+
+.icon-warn:before { content: "\e6f4"; }	/*异常、告警*/
+
+.icon-persons:before { content: "\e7c9"; }	/*人口*/
+
+.icon-recovery:before { content: "\e6e0"; }	/*回收*/
+
+.icon-pump:before { content: "\e6e3"; }	/*泵站管理*/
+
+.icon-lab:before { content: "\e6f7"; }	/*水质化验*/
+
+

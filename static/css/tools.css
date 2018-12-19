@@ -1,0 +1,15 @@
+
+
+/**	
+工具条按钮样式
+*************************************************** **/
+.tools{float:right;height:24px;}
+.tools .icons{ background:url(../images/icon.png) no-repeat;width:22px;height:22px;border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;cursor:pointer;float:right;margin-right:10px;}
+.tools .icon-add{background-color:#52c4ed;border:solid 1px #51accc; background-position:-9px -9px;}
+.tools .icon-add:hover{background-color:#6adbff;border:solid 1px #73c8e4;}
+.tools .icon-edit{background-color:#f4b93a;border:solid 1px #e3a453; background-position:-50px -9px;}
+.tools .icon-edit:hover{background-color:#f4ca39;border:solid 1px #ecb640;}
+.tools .icon-invalid{background-color:#ff8957;border:solid 1px #e87b52; background-position:-129px -9px;}
+.tools .icon-invalid:hover{background-color:#ffac87;border:solid 1px #f39972;}
+.tools .icon-del{background-color:#f75351;border:solid 1px #dd3d38; background-position:-89px -9px;}
+.tools .icon-del:hover{background-color:#fa7f7d;border:solid 1px #f47570;}

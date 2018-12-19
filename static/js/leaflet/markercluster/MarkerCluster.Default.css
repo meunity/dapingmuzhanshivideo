@@ -1,0 +1,131 @@
+.marker-cluster-small {
+	background-color: rgba(181, 226, 140, 0.8);
+	}
+.marker-cluster-small div {
+	background-color: rgba(110, 204, 57, 0.8);
+	}
+.marker-cluster-color1 {
+	background-color: rgba(0,150,200, 0.8);
+	}
+.marker-cluster-color1 div {
+	background-color: rgba(0,123,197, 0.8);
+	}
+.marker-cluster-color2 {
+	background-color: rgba(232,130,20, 0.8);
+	}
+.marker-cluster-color2 div {
+	background-color: rgba(231,127,15, 0.8);
+	}
+.marker-cluster-color3 {
+	background-color: rgba(154,11,224, 0.8);
+	}
+.marker-cluster-color3 div {
+	background-color: rgba(153,9,220, 0.8);
+	}
+.marker-cluster-color5 {
+	background-color: rgba(120,101,93, 0.8);
+	}
+.marker-cluster-color5 div {
+	background-color: rgba(111,99,91, 0.8);
+	}
+.marker-cluster-color6 {
+	background-color: rgba(154,11,224, 0.8);
+	}
+.marker-cluster-color6 div {
+	background-color: rgba(153,9,220, 0.8);
+	}
+.marker-cluster-color7 {
+	background-color: rgba(153,11,224, 0.8);
+	}
+.marker-cluster-color7 div {
+	background-color: rgba(153,9,220, 0.8);
+	}
+.marker-cluster-color8 {
+	background-color: rgba(242,100,93, 0.8);
+	}
+.marker-cluster-color8 div {
+	background-color: rgba(240,99,91, 0.8);
+	}
+.marker-cluster-color11 {
+	background-color: rgba(132,150,93, 0.8);
+	}
+.marker-cluster-color11 div {
+	background-color: rgba(131,145,91, 0.8);
+	}
+.marker-cluster-color20 {
+	background-color: rgba(222,42,32, 0.8);
+	}
+.marker-cluster-color20 div {
+	background-color: rgba(220,40,30, 0.8);
+	}
+.marker-cluster-color21 {
+	background-color: rgba(131,37,90, 0.8);
+	}
+.marker-cluster-color21 div {
+	background-color: rgba(130,38,80, 0.8);
+	}
+.marker-cluster-color31 {
+	background-color: rgba(242,100,93, 0.8);
+	}
+.marker-cluster-color31 div {
+	background-color: rgba(18,201,10, 0.8);
+	}
+.marker-cluster-medium {
+	background-color: rgba(18, 200, 8, 0.8);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(240, 194, 12, 0.8);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(253, 156, 115, 0.8);
+	}
+.marker-cluster-large div {
+	background-color: rgba(241, 128, 23, 0.8);
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+	background-color: rgb(181, 226, 140);
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: rgb(110, 204, 57);
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: rgb(241, 211, 87);
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: rgb(240, 194, 12);
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: rgb(253, 156, 115);
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: rgb(241, 128, 23);
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
+.marker-cluster-alarm{
+	background-color: rgba(253, 156, 115, 0.8);
+}
+.marker-cluster-alarm div{
+	background-color: rgba(255, 0, 0, 0.8);
+}

@@ -1,0 +1,61 @@
+﻿div.contact_us { position: absolute; z-index: 9999999; }
+div.contact_us.p_left { width: 36px; height: 108px; left: 6px; }
+div.contact_us.p_right { width: 36px; height: 108px; right: 6px; }
+div.contact_us.p_top { width: 108px; height: 36px; top: 6px; }
+div.contact_us.p_bottom { width: 108px; height: 36px; bottom: 6px; }
+div.contact_us > div { float: left; position: relative; width: 36px; height: 36px; background-color: #4aa6fc; cursor: pointer; background-image: url(Images/icon-entrance.png); background-repeat: no-repeat; }
+div.contact_us > div > div { text-align: center; line-height: 16px; padding: 2px 0px; display: none; }
+div.contact_us > div:hover { background-color: #e2f2ff; }
+div.contact_us > div:hover > div { display: block; }
+div.contact_us > div.icon1 { font-size:12px;background-position: center 10px; border-radius: 3px 3px 0px 0px; }
+div.contact_us.p_top > div.icon1, div.contact_us.p_bottom > div.icon1 { border-radius: 3px 0px 0px 3px; }
+div.contact_us > div.icon2 { font-size:12px;background-position: center -40px; }
+div.contact_us > div.icon3 { font-size:12px;background-position: center -90px; border-radius: 0px 0px 3px 3px; }
+div.contact_us.p_top > div.icon3, div.contact_us.p_bottom > div.icon3 { background-position: center -90px; border-radius: 0px 3px 3px 0px; }
+div.contact_us > div.icon3 > div.code { position: absolute; width: 140px; height: 140px; border: solid 1px #DBDBD9; background-image: url(Images/hd-code.jpg); background-repeat: no-repeat; }
+div.contact_us.p_right.top > div.icon3 > div.code, div.contact_us.p_right.middle > div.icon3 > div.code { top: 0px; right: 36px; }
+div.contact_us.p_right.bottom > div.icon3 > div.code { bottom: 0px; right: 36px; }
+div.contact_us.p_left.top > div.icon3 > div.code, div.contact_us.p_left.middle > div.icon3 > div.code { top: 0px; left: 36px; }
+div.contact_us.p_left.bottom > div.icon3 > div.code { bottom: 0px; left: 36px; }
+div.contact_us.p_top.left > div.icon3 > div.code, div.contact_us.p_top.center > div.icon3 > div.code { top: 36px; left: 0px; }
+div.contact_us.p_top.right > div.icon3 > div.code { top: 36px; right: 0px; }
+div.contact_us.p_bottom.left > div.icon3 > div.code, div.contact_us.p_bottom.center > div.icon3 > div.code { bottom: 36px; left: 0px; }
+div.contact_us.p_bottom.right > div.icon3 > div.code { bottom: 36px; right: 0px; }
+
+div.online { width: 680px; height: 400px; padding-top: 60px; cursor: default; color: #53565B; }
+div.online td { padding: 6px 2px; }
+div.online > .ctn_left { float: left; width: 49%; }
+div.online > .ctn_right { margin-left: 50%; width: 49%; }
+div.online .icon_tel { width: 80px; height: 80px; margin: 4px auto; background-image: url(Images/tel.png); background-repeat: no-repeat; }
+div.online .icon_qq { width: 80px; height: 80px; margin: 4px auto; background-image: url(Images/qq.png); background-repeat: no-repeat; }
+div.online .title { width: 88px; margin: 0px auto; font-size: 20px; font-weight: bold; padding-bottom: 26px; }
+div.online .label { width: 146px; text-align: right; }
+div.online .qq { display: inline-block; width: 77px; height: 22px; background-image: url(Images/btn-qq.png); background-repeat: no-repeat; }
+
+.feedback { color: #636468; cursor: default; }
+.feedback td { padding: 4px; }
+.feedback td.label { width: 60px; text-align: right; vertical-align: top; padding: 9px 4px 6px 4px; }
+.feedback textarea.description { width: 690px; height: 169px; border: solid 1px #D5D9DA; resize: none; }
+.feedback input.contact_info { width: 690px; border: solid 1px #D5D9DA; }
+.feedback .picture { display: inline-block; cursor: pointer; border: solid 1px #D7D8DA; padding: 4px 4px 4px 20px; color: #1F59A3; background-image: url(Images/icon-entrance.png); background-repeat: no-repeat; background-position: left -196px; }
+.feedback .attachment { display: inline-block; cursor: pointer; border: solid 1px #D7D8DA; padding: 4px 4px 4px 20px; color: #1F59A3; background-image: url(Images/icon-entrance.png); background-repeat: no-repeat; background-position: left -246px; }
+.feedback .pictures { width: 315px; height: 70px; }
+.feedback .pictures > div { width: 100px; height: 70px; display: inline-block; position: relative; }
+.feedback .pictures > div > img { width: 100px; height: 70px; }
+.feedback .pictures > div > div { display: none; cursor: pointer; width: 16px; height: 16px; position: absolute; top: 2px; right: 2px; border: solid 1px #DAD5DB; background-color: #ffffff; background-image: url(Images/icon_close.gif); background-repeat: no-repeat; }
+.feedback .pictures > div:hover > div { display: block; }
+.feedback .attachments { float: right; width: 276px; height: 70px; background-color: #E4E4E4; border: solid 1px #D5D9DA; }
+.feedback .attachments > div { width: 100%; display: inline-block; position: relative; }
+.feedback .attachments > div > span { padding: 4px; line-height: 22px; }
+.feedback .attachments > div > div { display: none; cursor: pointer; width: 16px; height: 16px; position: absolute; top: 2px; right: 2px; background-image: url(Images/icon_close.gif); background-repeat: no-repeat; }
+.feedback .attachments > div:hover > div { display: block; }
+.feedback .linkman > div { }
+.feedback .linkman > div > .checkbox { display: inline-block; width: 90px; padding: 2px 4px; }
+.feedback .linkman > div > .checkbox > .icon { display: inline-block; position: relative; top: 4px; width: 16px; height: 16px; background-image: url(Images/checkbox.png); background-repeat: no-repeat; background-position: center 0px; }
+.feedback .linkman > div > .checkbox > .label { display: inline-block; line-height: 16px; text-indent: 4px; }
+.feedback .linkman > div > .checkbox.checked > .icon { background-position: center -20px; }
+.feedback .linkman > div > .label { display: inline-block; font-weight: bold; }
+.feedback .confirm { text-align: right; border-top: solid 1px #BBD0E1; }
+.feedback .confirm > button { background-color: #43A943; border: solid 1px #2C8A2C; color: #ffffff; }
+.feedback textarea::-webkit-input-placeholder:after { display: block; line-height: 26px; content: "对我们的系统不满意吗？请告诉我们。比如：\A 1、遇到的问题；\A 2、使用过程中的感受；\A 3、功能、操作、界面上的改进建议。"; }
+.feedback textarea::-moz-placeholder:after { line-height: 26px; content: "对我们的系统不满意吗？请告诉我们。比如：\A 1、遇到的问题；\A 2、使用过程中的感受；\A 3、功能、操作、界面上的改进建议。"; }
